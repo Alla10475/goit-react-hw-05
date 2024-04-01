@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import css from "./MovieList.module.css";
-const img = "https://image.tmdb.org/t/p/w500";
+const img = "https://image.tmdb.org/t/p/w400";
 
 const MovieList = ({ movies }) => {
   const location = useLocation();

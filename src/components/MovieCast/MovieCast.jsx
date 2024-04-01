@@ -4,7 +4,7 @@ import css from './MovieCast.module.css';
 import { getMovieCast } from '../../apiService/moveis';
 import Loader from '../Loader/Loader';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
-const img = 'https://image.tmdb.org/t/p/w500';
+const img = 'https://image.tmdb.org/t/p/w300';
 
 const MovieCast = () => {
   const { movieId } = useParams();
@@ -39,7 +39,7 @@ const MovieCast = () => {
         <ul className={css.castList}>
           {cast.map(({ id, profile_path, name, character }) => (
             <li className={css.castItem} key={id}>
-              <img src={img + profile_path} alt={name} width={300} />
+              <img src={img + profile_path} alt={name} width={200} />
               <div className={css.infoWrap}>
                 <p>{name}</p>
                 <p>{character}</p>
