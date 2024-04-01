@@ -1,0 +1,30 @@
+.notFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+  font-size: 30px;
+}
+
+.homeBtn {
+  display: block;
+  color: #ede9e2;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 120px;
+  text-align: center;
+  border: 1px solid rgb(237, 233, 226);
+}
+
+.homeBtn:hover,
+.homeBtn:focus {
+  background-color: rgb(237, 233, 226);
+  color: #0d3a61;
+  border: 1px solid #0d3a61;
+}
+
