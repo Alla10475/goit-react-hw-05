@@ -39,7 +39,7 @@ const MovieCast = () => {
         <ul className={css.castList}>
           {cast.map(({ id, profile_path, name, character }) => (
             <li className={css.castItem} key={id}>
-              <img src={img + profile_path} alt={name} width={200} />
+              <img src={img + profile_path} alt={name} width={150} />
               <div className={css.infoWrap}>
                 <p>{name}</p>
                 <p>{character}</p>

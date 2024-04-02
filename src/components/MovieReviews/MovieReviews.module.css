@@ -1,19 +1,18 @@
 .reviewsList {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 24px;
 }
 
 .reviewsItem {
-  font-size: 20px;
+  font-size: 16px;
     padding: 16px 0;
     border-top: 3px solid;
   border-bottom: 3px solid;
-  margin-bottom: 24px;
  }
 
 .author {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 16px;
 }

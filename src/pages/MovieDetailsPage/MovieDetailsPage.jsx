@@ -55,7 +55,7 @@ const MovieDetailsPage = () => {
               <img
                 src={img + movie.poster_path}
                 alt={movie.original_title}
-                width={400}
+                width={300}
               />
             </div>
             <div>
